@@ -5,11 +5,9 @@
   "features": {
     "Camera": {
       "working": [
-        "Flashlight"
-      ],
-      "partly": [
         "Photo",
-        "Switch camera"
+        "Switch camera",
+        "Flashlight"
       ],
       "notWorking": [
         "Video"
@@ -149,7 +147,7 @@
         "type": "list",
         "links": [
           {
-            "to": "https://images.droidian.org/droidian/nightly/arm64/samsung/image-fastboot-starqlte.zip",
+            "to": "https://images.droidian.org/droidian/nightly/arm64/google/image-fastboot-sargo.zip",
             "text": "Droidian's image",
             "id": 1
           }
@@ -178,12 +176,6 @@
       {
         "type": "string",
         "data": "Mobile data needs an APN to be set up from Settings -> Mobile Network -> Access Point Names."
-      }
-    ],
-    "Camera": [
-      {
-        "type": "string",
-        "data": "Camera currently works in Waydroid only. sudo apt install waydroid"
       }
     ],
     "Applications": [
